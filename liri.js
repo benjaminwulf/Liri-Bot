@@ -110,26 +110,5 @@ function playSpotify(song) {
     });
 }
 
-
-//============================================
-
-function omdbMovie(movieName) {
-    // code goes here
-}
-
-function doWhatItSays() {
-    fs.readFile('random.txt', 'utf8', function(err, data) {
-        if (err) {
-            return console.log(error);
-        }
-
-        var dataArr = data.split(',');
-
-        console.log(dataArr);
-        processCommands(dataArr[0], dataArr[i]);
-    });
-}
-// example
 processCommands('spotify', songName);
-// processCommands(command, commandParam);
 
