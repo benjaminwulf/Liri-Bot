@@ -1,2 +1,2 @@
 # Liri
-Speech recognition node.js project
+Liri Bot node.js project
